@@ -1,0 +1,31 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.vscode/
+.idea/
+.ipynb_checkpoints/
+
+# Ultralytics / training artifacts
+.ultralytics_config/
+runs/
+wandb/
+outputs/*
+!outputs/.gitkeep
+*.pt
+*.onnx
+
+# Local datasets / videos
+data/videos/
+data/raw/
+data/processed/
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Evaluation outputs
+evaluation/results/*
+!evaluation/results/.gitkeep
+outputs/trackeval/
